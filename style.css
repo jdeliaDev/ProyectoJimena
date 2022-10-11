@@ -14,7 +14,7 @@ body{
     text-align: center;
 }
 
-#linkWhatsapp{
+a{
     color: rgb(171, 206, 102);
     text-decoration:wavy;
 }
@@ -22,11 +22,42 @@ body{
 ul{
     background-color: transparent;
     list-style-type: none;
-    padding: 10px;
-    width: 30%;
 }
 
 .item_menu{
     display: inline;
     padding: 10px;
+    color: black;
+}
+
+.footer{
+    background-color: black;
+    color: rgb(171, 206, 102);
+}
+
+.TituloSecudario{   
+    text-transform: uppercase;
+    padding: 0px 0px 0px 40px;
+}
+
+.padreFooter{
+    display: flex;
+    flex-direction: row;
+    gap: 22%;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /*grid-template-rows: 3;*/
+    grid-gap: 15px;
+    align-items: center;
+}
+
+.hijos{
+    background-color: beige;
+    width: 200px;
+    height: 200px;    
 }
