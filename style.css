@@ -22,12 +22,27 @@ a{
 ul{
     background-color: transparent;
     list-style-type: none;
+    padding: 0px;
 }
 
 .item_menu{
     display: inline;
-    padding: 10px;
+    padding: 20px;
     color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: gray;
+}
+
+.logo{
+    width: 150px;
+    padding: 0px 0px 0px 20px;
 }
 
 .footer{
@@ -37,21 +52,18 @@ ul{
 
 .TituloSecudario{   
     text-transform: uppercase;
-    padding: 0px 0px 0px 40px;
 }
 
 .padreFooter{
     display: flex;
-    flex-direction: row;
-    gap: 22%;
-    flex-wrap: wrap;
-    padding: 20px 10px;
+    justify-content: space-around;
 }
 
 .padre{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     /*grid-template-rows: 3;*/
+    justify-items: center;
     grid-gap: 15px;
     align-items: center;
 }
@@ -59,5 +71,21 @@ ul{
 .hijos{
     background-color: beige;
     width: 200px;
-    height: 200px;    
+    height: 200px;   
+}
+
+@media(max-width: 400px){
+    .padre{
+        grid-template-columns: 1fr;
+    }
+
+    .padreFooter{
+        flex-direction: column;
+    }
+
+    .item_menu{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
 }
