@@ -2,7 +2,7 @@
 
 body{
     background-color: rgb(104, 172, 104);
-    margin: 0;
+    /*margin: 0;*/
     font-family: 'Raleway', sans-serif;
 }
 
@@ -25,24 +25,21 @@ ul{
     padding: 0px;
 }
 
-.item_menu{
-    display: inline;
-    padding: 20px;
-    color: black;
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0px;
-    width: 100%;
+.navbar{
     background-color: gray;
+    padding: 0px 0px;
+}
+.nav-link{
+    color: black;
 }
 
 .logo{
     width: 150px;
-    padding: 0px 0px 0px 20px;
+}
+
+section{
+    gap: 25px;
+    padding: 0px 0px 20px 0px;
 }
 
 .footer{
@@ -59,22 +56,15 @@ nav{
     justify-content: space-around;
 }
 
-.padre{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    /*grid-template-rows: 3;*/
-    justify-items: center;
-    grid-gap: 15px;
-    align-items: center;
+#carouselExampleControls{
+    padding: 0px 0px 20px 0px;
 }
 
-.hijos{
-    background-color: beige;
-    width: 200px;
-    height: 200px;   
+.card{
+    padding: 0px 0px;
 }
 
-@media(max-width: 400px){
+/*@media(max-width: 400px){
     .padre{
         grid-template-columns: 1fr;
     }
@@ -88,4 +78,4 @@ nav{
         flex-direction: column;
         padding: 0px;
     }
-}
+}*/
