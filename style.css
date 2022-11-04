@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body{
-    background-color: rgb(104, 172, 104);
-    /*margin: 0;*/
+    /*background-color: rgb(104, 172, 104);*/
+    background-color: rgb(207, 185, 151);
+    margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 
 .link_whatsapp{
-    background-color: black;
+    /*background-color: black;*/
+    background-color: rgb(97, 118, 75);
     font-size: 14px;
     background-size: cover;
     padding: 10px;
@@ -19,22 +21,28 @@ a{
     text-decoration:wavy;
 }
 
-ul{
-    background-color: transparent;
+/*ul{
     list-style-type: none;
     padding: 0px;
-}
+}*/
 
 .navbar{
-    background-color: gray;
+    /*background-color: gray;*/
+    background-color: rgb(155, 161, 123);
     padding: 0px 0px;
 }
 .nav-link{
     color: black;
+    font-weight: bolder;
+}
+
+.nav-item{
+    background-color:whitesmoke;
+    border-radius: 10px;   
 }
 
 .logo{
-    width: 150px;
+    width: 170px;
 }
 
 section{
@@ -42,19 +50,23 @@ section{
     padding: 0px 0px 20px 0px;
 }
 
-.footer{
-    background-color: black;
+footer{
+    /*background-color: black;*/
+    background-color: rgb(97, 118, 75);
     color: rgb(171, 206, 102);
+    position: sticky;
+    bottom: 0;
+    /*height: 150px;*/
 }
 
-.TituloSecudario{   
+/*.TituloSecudario{   
     text-transform: uppercase;
 }
 
 .padreFooter{
     display: flex;
     justify-content: space-around;
-}
+}*/
 
 #carouselExampleControls{
     padding: 0px 0px 20px 0px;
