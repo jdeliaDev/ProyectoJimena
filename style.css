@@ -30,6 +30,8 @@ a{
     /*background-color: gray;*/
     background-color: rgb(155, 161, 123);
     padding: 0px 0px;
+    position: sticky;
+    top: 0;  
 }
 .nav-link{
     color: black;
@@ -51,22 +53,11 @@ section{
 }
 
 footer{
-    /*background-color: black;*/
     background-color: rgb(97, 118, 75);
     color: rgb(171, 206, 102);
-    position: sticky;
-    bottom: 0;
-    /*height: 150px;*/
+    /*position: sticky;
+    bottom: 0;*/
 }
-
-/*.TituloSecudario{   
-    text-transform: uppercase;
-}
-
-.padreFooter{
-    display: flex;
-    justify-content: space-around;
-}*/
 
 #carouselExampleControls{
     padding: 0px 0px 20px 0px;
@@ -76,18 +67,14 @@ footer{
     padding: 0px 0px;
 }
 
-/*@media(max-width: 400px){
-    .padre{
-        grid-template-columns: 1fr;
-    }
+.btn{
+    background-color:rgb(171, 206, 102);
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+}
 
-    .padreFooter{
-        flex-direction: column;
-    }
+.btn:hover{
+    background-color:rgb(171, 206, 102);
+}
 
-    .item_menu{
-        display: flex;
-        flex-direction: column;
-        padding: 0px;
-    }
-}*/
