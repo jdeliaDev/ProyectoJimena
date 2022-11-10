@@ -6,6 +6,13 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
 .link_whatsapp{
     background-color: rgb(97, 118, 75);
     font-size: 14px;
@@ -63,15 +70,11 @@ footer{
     padding: 0px 0px;
 }
 
-.btn{
+.btn-form-enviar{
     background-color:rgb(171, 206, 102);
     color: black;
     font-weight: bolder;
-    border-radius: 10px;
-}
-
-.btn:hover{
-    background-color:rgb(171, 206, 102);
+    border-style: none; 
 }
 
 .col-form-label{
