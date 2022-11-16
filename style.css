@@ -80,3 +80,28 @@ footer{
     font-weight: bolder;
 }
 
+button{
+    border: none;
+    background-color: whitesmoke;
+}
+
+.subMenu{
+    display: none;
+    position: absolute;
+    top: 30px;
+}
+
+.subMenuFooter{
+    display: none;
+    padding-left: 20px;
+}
+
+.mostrar{
+    display: block;
+}
+
+#productosFooter{
+    background-color: rgb(97, 118, 75);
+    color: rgb(171, 206, 102);
+    padding: 0px;
+}
