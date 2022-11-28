@@ -1,4 +1,4 @@
-let btnEnviar = document.querySelector(".btn-form-enviar");
+/*let btnEnviar = document.querySelector(".btn-form-enviar");*/
 let btnProductos = document.querySelector("#productos");
 let subMenu = document.querySelector("#subMenu");
 let btnProductosFooter = document.querySelector("#productosFooter");
@@ -12,8 +12,7 @@ btnProductosFooter.addEventListener("click",()=>{
     subMenuFooter.classList.toggle("mostrar")    
 })
 
-btnEnviar.addEventListener("click",(event)=>{
+/*btnEnviar.addEventListener("click",(event)=>{
     event.preventDefault()
-    /*document.*/
-});
+});*/
 
